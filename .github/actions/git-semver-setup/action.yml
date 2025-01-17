@@ -27,6 +27,6 @@ runs:
           git clone --branch ${{ inputs.version }} https://github.com/PSanetra/git-semver.git
         fi
         
-        cd git-semver/cli./
+        cd git-semver/cli
         go build -o git-semver
         sudo mv git-semver /usr/local/bin
