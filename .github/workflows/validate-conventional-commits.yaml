@@ -5,6 +5,7 @@ on:
 
 permissions:
   contents: write
+  id-token: read
 
 defaults:
   run:
