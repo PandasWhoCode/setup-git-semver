@@ -1,6 +1,9 @@
 name: 'Git-Semver Setup Action'
 description: 'Performs setup of psanetra/git-semver for use in other GitHub workflows'
 author: 'Roger Barker <pendletonroger@gmail.com>'
+branding:
+  icon: 'check-circle'
+  color: 'blue'
 
 inputs:
   version:
