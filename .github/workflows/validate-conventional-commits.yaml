@@ -3,6 +3,13 @@ name: PR Conventional Commit Validation
 on:
   pull_request:
 
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   validate-pr-title:
     runs-on: ubuntu-latest
