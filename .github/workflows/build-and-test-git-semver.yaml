@@ -24,7 +24,7 @@ jobs:
           fetch-depth: '0'
 
       - name: Setup git-semver
-        uses: ./github/actions/setup-git-semver
+        uses: ./.github/actions/setup-git-semver
         with:
           version: 'latest'
 
