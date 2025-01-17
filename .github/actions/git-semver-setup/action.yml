@@ -1,0 +1,31 @@
+name: 'Git-Semver Setup Action'
+description: 'Performs setup of psanetra/git-semver for use in other GitHub workflows'
+author: 'Roger Barker <pendletonroger@gmail.com>'
+
+runs:
+  inputs:
+    version:
+      description: 'The version of git-semver to use'
+      required: false
+      default: 'latest'
+  using: 'composite'
+  steps:
+    - name: Install go
+      uses: actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a # v5.2.0
+      with:
+        go-version: '1.23.5'
+
+    - name: Clone and build git-semver
+      shell: bash
+      run: |
+        if [[ "${{ inputs.version }}" == "latest" ]]; then
+          # clone the latest version
+          git clone https://github.com/PSanetra/git-semver.git
+        else
+          # clone the specified version
+          git clone --branch ${{ inputs.version }} https://github.com/PSanetra/git-semver.git
+        fi
+        
+        cd git-semver
+        go build -o git-semver
+        sudo mv git-semver /usr/local/bin
