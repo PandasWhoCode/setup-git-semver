@@ -13,8 +13,6 @@ defaults:
 permissions:
   contents: read
 
-INTENTIONALLY BREAKING COMMIT
-
 jobs:
   build:
     runs-on: ubuntu-latest
