@@ -2,12 +2,13 @@ name: 'Git-Semver Setup Action'
 description: 'Performs setup of psanetra/git-semver for use in other GitHub workflows'
 author: 'Roger Barker <pendletonroger@gmail.com>'
 
+inputs:
+  version:
+    description: 'The version of git-semver to use'
+    required: false
+    default: 'latest'
+
 runs:
-  inputs:
-    version:
-      description: 'The version of git-semver to use'
-      required: false
-      default: 'latest'
   using: 'composite'
   steps:
     - name: Install go
