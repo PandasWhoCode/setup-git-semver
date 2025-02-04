@@ -1,6 +1,7 @@
 # setup-git-semver
 
 A GitHub Action to set up the [git-semver](https://github.com/PSanetra/git-semver) tool in your GitHub workflows. This action installs and configures `git-semver` for versioning and semantic versioning tasks, allowing you to use it seamlessly in your CI/CD pipeline.
+The latest version uses [andrewb1269hg/git-semver](https://github.com/andrewb1269hg/git-semver)
 
 ## Usage
 
