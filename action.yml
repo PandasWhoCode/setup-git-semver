@@ -24,7 +24,7 @@ runs:
       run: |
         if [[ "${{ inputs.version }}" == "latest" ]]; then
           # clone the latest version
-          git clone https://github.com/andrewb1269hg/git-semver.git
+          git clone https://github.com/PandasWhoCode/git-semver.git
         else
           # clone the specified version
           git clone --branch ${{ inputs.version }} https://github.com/PSanetra/git-semver.git
