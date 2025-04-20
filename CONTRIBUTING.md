@@ -6,7 +6,7 @@ Thank you for your interest in contributing to the `setup-git-semver` project! W
 
 ### Reporting Issues
 
-If you've encountered a bug or have a suggestion for improvement, please check the [Issues](https://github.com/DJ-BBot/setup-git-semver/issues) tab to see if it's already been reported. If not, feel free to open a new issue with as much detail as possible, including:
+If you've encountered a bug or have a suggestion for improvement, please check the [Issues](https://github.com/PandasWhoCode/setup-git-semver/issues) tab to see if it's already been reported. If not, feel free to open a new issue with as much detail as possible, including:
 
 - A clear description of the problem or feature request.
 - Steps to reproduce the issue (if applicable).
@@ -68,7 +68,7 @@ If you make changes that affect how the action works or how it is used, please u
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the [Apache License 2.0](https://github.com/DJ-BBot/setup-git-semver?tab=Apache-2.0-1-ov-file#readme).
+By contributing to this project, you agree that your contributions will be licensed under the [Apache License 2.0](https://github.com/PandasWhoCode/setup-git-semver?tab=Apache-2.0-1-ov-file#readme).
 
 ## Code of Conduct
 
@@ -81,4 +81,4 @@ Your contributions are what make this project great. Thank you for helping impro
 ---
 
 **Author**: [Roger Barker](https://github.com/DJ-BBot)  
-**Email**: [roger@gmail.com](mailto:roger@pandaswhocode.com)
+**Email**: [roger@pandaswhocode.com](mailto:roger@pandaswhocode.com)
