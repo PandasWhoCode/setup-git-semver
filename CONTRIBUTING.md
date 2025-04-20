@@ -81,4 +81,4 @@ Your contributions are what make this project great. Thank you for helping impro
 ---
 
 **Author**: [Roger Barker](https://github.com/DJ-BBot)  
-**Email**: [pendletonroger@gmail.com](mailto:pendletonroger@gmail.com)
+**Email**: [roger@gmail.com](mailto:roger@pandaswhocode.com)
