@@ -24,7 +24,11 @@ runs:
       run: |
         if [[ "${{ inputs.version }}" == "latest" ]]; then
           # clone the latest version
-          git clone https://github.com/PandasWhoCode/git-semver.git
+          git clone --depth 1 https://github.com/PandasWhoCode/git-semver.git
+          cd git-semver
+          git fetch origin 4af2d24294f6fb4de5584f4f5c7cd4d29b609909 # v0.2.7
+          git checkout 4af2d24294f6fb4de5584f4f5c7cd4d29b609909 # v0.2.7
+          cd ..
         else
           # clone the specified version
           git clone --branch ${{ inputs.version }} https://github.com/PSanetra/git-semver.git
